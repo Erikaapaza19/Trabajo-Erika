@@ -14,7 +14,7 @@ if (denominador == 0)
 cout << " no solucion\n";
 else {
 x = (c * e - b * f) / denominador;
-y = (a * f - c * d) / denominador;
+y = ((a * f - c * d)*2) / denominador;
 cout << " la solucion del sistema es\n";
 cout << " x = " << x << " y = " << y << endl;
 }
