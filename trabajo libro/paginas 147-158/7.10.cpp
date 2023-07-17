@@ -19,8 +19,7 @@ void encontrarMayorYMenor(const std::vector<std::vector<int>>& matriz) {
     menor.valor = std::numeric_limits<int>::max();
 
     for (int i = 0; i < filas; i++) {
-        for (int j = 0; j < columnas; j++) {
-            int elemento = matriz[i][j];
+atriz[i][j];
 
             if (elemento > mayor.valor) {
                 mayor.valor = elemento;
