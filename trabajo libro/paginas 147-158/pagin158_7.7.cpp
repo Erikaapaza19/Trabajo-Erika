@@ -8,13 +8,5 @@ int main() {
         {3, 1, 2, 6, 4}
     };
 
-    // Visualizar el array en el formato deseado
-    for (int j = 0; j < 5; j++) {
-        for (int i = 0; i < 3; i++) {
-            cout << array[i][j] << " ";
-        }
-        cout << endl;
-    }
-
     return 0;
 }
