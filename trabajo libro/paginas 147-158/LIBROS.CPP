@@ -5,11 +5,6 @@ using namespace std;
 struct Libro {
    string titulo;
    string autor;
-};
-
-int main() {
-   Libro libros[8];
-   int numLibros = 0;
 
    while (numLibros < 8) {
       cout << "Ingrese el titulo del libro #" << numLibros + 1 << ": ";
