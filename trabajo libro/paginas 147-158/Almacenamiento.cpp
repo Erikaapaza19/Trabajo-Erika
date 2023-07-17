@@ -13,15 +13,8 @@ int main() {
 
     std::cout << "Ingrese la información de los libros:" << std::endl;
 
-    while (cantidadLibros < MAX_LIBROS) {
+ (cantidadLibros < MAX_LIBROS) {
         std::cout << "Libro " << cantidadLibros + 1 << ":" << std::endl;
-
-        std::cout << "Título: ";
-        std::getline(std::cin >> std::ws, libros[cantidadLibros].titulo);
-
-        std::cout << "Autor: ";
-        std::getline(std::cin >> std::ws, libros[cantidadLibros].autor);
-
         cantidadLibros++;
 
         std::cout << std::endl;
